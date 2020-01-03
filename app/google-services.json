@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "108479569760",
+    "firebase_url": "https://spreee-6bcb2.firebaseio.com",
+    "project_id": "spreee-6bcb2",
+    "storage_bucket": "spreee-6bcb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:108479569760:android:6923c6752813d463488805",
+        "android_client_info": {
+          "package_name": "com.gmail.spreee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "108479569760-0jkia59t3u5v1sskf0b9l2fu932kjh8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYTZ_wRBRG7wSjcHhgDs21mN7r9ModSOk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "108479569760-0jkia59t3u5v1sskf0b9l2fu932kjh8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

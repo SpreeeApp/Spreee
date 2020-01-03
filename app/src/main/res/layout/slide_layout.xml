@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="223dp"
+        android:layout_height="247dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="9dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/online" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slide_image"
+        android:layout_marginTop="17dp"
+        android:text="@string/heading"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@color/colorDarkBlue"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/slide_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="88dp"
+        android:layout_below="@+id/slide_heading"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="13dp"
+        android:text="@string/shop_online_on_your_device_from_your_favourite_store_without_having_to_go_there_physically"
+        android:textAlignment="center"
+        android:textSize="14sp" />
+</RelativeLayout>
